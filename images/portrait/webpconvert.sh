@@ -1,3 +1,3 @@
-for f in /home/charliepi/Pictures/ats_images/portrait/*.jpg; do
-cwebp -q 95 -resize 600 0 "$f" -o "${f%.jpg}.webp"
+for f in /media/charliepi/ATree/AlphaTree/AT_Image_Server/images/portrait/*.jpg; do
+cwebp -q 95 -resize 200 0 "$f" -o "${f%.jpg}_thumb.webp"
 done
