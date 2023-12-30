@@ -9,4 +9,4 @@ RUN mkdir /usr/local/apache2/htdocs/portrait
 COPY images/portrait/*.webp /usr/local/apache2/htdocs/portrait/
 
 RUN mkdir  /usr/local/apache2/htdocs/video/
-COPY video/*.webp /usr/local/apache2/htdocs/video/
+COPY images/video/*.webp /usr/local/apache2/htdocs/video/
