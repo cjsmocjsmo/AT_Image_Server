@@ -1,4 +1,4 @@
 #!/bin/sh
 
-docker build -t ats_img_server:0.1.11 .;
-docker run -dit -p 9191:80 ats_img_server:0.1.11;
+docker build -t ats_img_server:0.1.12 .;
+docker run -dit -p 9191:80 ats_img_server:0.1.12;
